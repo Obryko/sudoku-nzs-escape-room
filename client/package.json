@@ -1,6 +1,7 @@
 {
   "name": "sudoku-nzs-escape-room-client",
   "version": "1.0.0",
+  "proxy":"http://localhost:80",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.3.1",

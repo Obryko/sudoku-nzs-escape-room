@@ -10,7 +10,7 @@ var express = require('express'),
 
 
 io.on('connection', function (socket) {
-    // console.log('User connected');
+    console.log('User connected');
     socket.on('changePop', function (val) {
         io.emit('showPop', {
             pop: val
